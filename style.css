@@ -18,6 +18,7 @@ body{
 .header-items{
     position: absolute;
     top: 1%;
+    flex-grow:4;
 }
 #logo{
     height:5vh;
@@ -26,7 +27,14 @@ body{
     left:1%;
 }
 #Login{
-    background-color:yellow;
+    background-color:rgb(255, 255, 146);
+    height:40px;
+    width:50px;
+}
+#btn1{
+    background-color:rgb(148, 230, 245);
+    height:40px;
+    width:200px;
 }
 .para1{
     height:50vh;

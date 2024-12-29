@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family:sans-serif;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #043873;
+    height: 100vh;
+    color: white;
+    gap: 2%;
+}
+.header-items{
+    position: absolute;
+    top: 1%;
+}
+#logo{
+    height:5vh;
+    position: absolute;
+    top:1%;
+    left:1%;
+}
+#Login{
+    background-color:yellow;
+}
+.para1{
+    height:50vh;
+    width:30vw;
+}
+.image1{
+    background-color: #C4DEFD;
+    height:50vh;
+    width:30vw;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:2%;
+}
+.para2{
+    height:50vh;
+    width:30vw;
+}
+.image2{
+    background-color: #C4DEFD;
+    height:50vh;
+    width:30vw;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #043873;
+    color: white;
+    gap: 2%;
+}
+.para3{
+    height:50vh;
+    width:30vw;
+}
+.image3{
+    background-color: #C4DEFD;
+    height:50vh;
+    width:30vw;
+}
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding:5%;
+    gap: 2%;
+}
+.box{
+    height:80vh;
+    width:55vw;
+    border-radius:5%;
+    border:1px solid gray;
+    transition:1s;
+    padding: 2%;
+}
+.box:hover{
+    background-color: #043873;
+    color: gold;
+    transform: scale(1.1);
+}
+.box p{
+    margin-bottom:10px;
+    margin-top:5px;
+    text-align:left;
+    padding-left:10px;
+}
+.box-p{
+    position: relative;
+}
+#check{
+    position:absolute;
+    left:-20px;
+    top:0px;
+    height:25px;
+}
+.container7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding:5%;
+    gap: 2%;
+}
+.box1{
+    height:220px;
+    width:250px;
+    border-radius:5%;
+    background-color: #4F9CF9;
+    color:white;
+    transition:1s;
+    padding:5%;
+    position: relative;
+}
+.box1 p1{
+    border-bottom: 5px solid gray;
+}
+.box1:hover{
+    background-color:white;
+    color: black;
+}
+.sub-box1{
+    display: flex;
+    flex-direction:row;
+    height:10px;
+}
+#Avatar{
+    clip-path: circle(20%);
+    image-sizing:cover;
+    position: absolute;
+    bottom: 1px;
+    left:-90px;
+}
